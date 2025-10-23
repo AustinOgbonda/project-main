@@ -1,0 +1,1276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: #E3E6E6;
+}
+.head{
+    width: 1264.5px;
+    height: 5000px;
+    background-color: #E3E6E6;
+}
+.head .line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161C28;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+}
+.head .line img{
+    height: 20px;
+    width: 70px;
+    background: none;
+    position: relative;
+    left: -10px;
+    zoom: 300%;
+}
+.head .line .l1{
+    width: 70px;
+    color: lightgray;
+    background: none;
+    font-weight: lighter;
+    font-size: 12px;
+    position: relative;
+    left: -35px;
+}
+.head .line .l1 .l12{
+    width: 90px;
+    background: none;
+    font-weight: bold;
+    color: white;
+}
+.head .line .l2{
+    height: 40px;
+    width: 60px;
+    background-color: #E6E6E6;
+    border-style: none;
+    border-radius: 3px;
+    color: gray;
+    padding-right: 20px;
+    position: relative;
+    left: -25px;
+}
+.head .line .l3{
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    border-style: none;
+    padding-left: 10px;
+    position: relative;
+    left: -50px;
+}
+.head .line .l4{
+    height: 40px;
+    width: 45px;
+    background-color: #FEBD69;
+    color: gray;
+    border-style: none;
+    border-radius: 3px;
+    position: relative;
+    right: 73px;
+}
+.head .line .l5{
+    width: 130px;
+    color: lightgray;
+    background: none;
+    font-weight: lighter;
+    font-size: 12px;
+    position: relative;
+    left: -30px;
+}
+.head .line .l5 b{
+    width: 90px;
+    background: none;
+    font-weight: bold;
+    color: white;
+}
+.head .line .l6{
+    width: 60px;
+    color: lightgray;
+    background: none;
+    font-weight: lighter;
+    font-size: 12px;
+    position: relative;
+    left: -40px;
+}
+.head .line .l6 b{
+    width: px;
+    background: none;
+    font-weight: bold;
+    color: white;
+}
+.head .line .l7{
+    color: #F08804;
+    background: none;
+    font-size: 19px;
+    position: relative;
+    right: 25px;
+}
+.head .line .l7 b{
+    font-size: 13.5px;
+    background: none;
+    font-weight: bold;
+    color: white;
+}
+.head .line2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232F3E;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+}
+.head .line2 .i1{
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 40px;
+}
+.head .line2 .i2{
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    right: 70px;
+    font-weight: lighter;
+}
+.head .line2 .i3{
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    right: 190px;
+    font-weight: lighter;
+}
+.head .line2 .i4{
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    right: 310px;
+    font-weight: lighter;
+}
+.head .line2 .i5{
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    right: 430px;
+    font-weight: lighter;
+}
+.head .line2 .i6{
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    right: 550px;
+    font-weight: lighter;
+}
+.head .line2 .i7{
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    right: 670px;
+    font-weight: lighter;
+}
+.head .pic{
+    position: relative;
+    top: 100px;
+    width: auto;
+    overflow: hidden;
+}
+.head .pic .slide{
+    display: flex;
+    width: auto;
+    height: 700px;
+}
+.head .pic .prev{
+    position: absolute;
+    top: 348px;
+    /* z-index: ;
+    right: ;
+    font-size: ; */
+    color: black;
+    /* opacity: ;
+    cursor: ; */
+}
+.head .pic .next{
+    position: absolute;
+    top: 348px;
+    /* z-index: ;
+    left: ;
+    font-size: ; */
+    color: black;
+    /* opacity: ;
+    cursor: ; */
+}
+.head .box1{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 17px;
+    bottom: 350px;
+}
+.head .box1 .fir{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box1 .sec{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box1 .thr{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box1 .fou{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box2{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 330px;
+    bottom: 800px;
+}
+.head .box2 .fiv{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box2 .six{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box2 .sev{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box2 .eig{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box3{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 643px;
+    bottom: 1250px;
+}
+.head .box3 .nin{
+    height: 310px;
+    width: 250px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box4{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 956px;
+    bottom: 1700px;
+}
+.head .box4 .ten{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box4 .ele{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box4 .twe{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box4 .thi{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box5{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 17px;
+    bottom: 1680px;
+}
+.head .box5 .for{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box5 .fif{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box5 .sxt{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box5 .svn{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box6{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 330px;
+    bottom: 2130px;
+}
+.head .box6 .egh{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box6 .nne{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box6 .twe{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box6 .twf{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box7{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 643px;
+    bottom: 2580px;
+}
+.head .box7 .tw2{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box7 .tw3{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box7 .tw4{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box7 .tw5{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box8{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 956px;
+    bottom: 3030px;
+}
+.head .box8 .tw6{
+    height: 310px;
+    width: 250px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box9{
+    background-color: white;
+    width: 97%;
+    height: 5%;
+    position: relative;
+    left: 18px;
+    bottom: 3010px;
+}
+.head .box9 .tw7{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+.head .box9 .tw8{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+}
+.head .box9 .tw9{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 170px;
+}
+.head .box9 .tht{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 240px;
+}
+.head .box9 .th1{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .box9 .th2{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box9 .th3{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .box10{
+    background-color: white;
+    width: 97%;
+    height: 5%;
+    position: relative;
+    left: 18px;
+    bottom: 2990px;
+}
+.head .box10 .th4{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+.head .box10 .th5{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+}
+.head .box10 .th6{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 170px;
+}
+.head .box10 .th7{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 240px;
+}
+.head .box10 .th8{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .box10 .th9{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box10 .fot{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .box11{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 17px;
+    bottom: 2970px;
+}
+.head .box11 .fo1{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box11 .fo2{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box11 .fo3{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box11 .fo4{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box12{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 330px;
+    bottom: 3420px;
+}
+.head .box12 .fo5{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box12 .fo6{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box12 .fo7{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box12 .fo8{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box13{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 643px;
+    bottom: 3870px;
+}
+.head .box13 .fo9{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box13 .fit{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box13 .fi1{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box13 .fi2{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box14{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 956px;
+    bottom: 4320px;
+}
+.head .box14 .fi3{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box14 .fi4{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box14 .fi5{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box14 .fi6{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box15{
+    background-color: white;
+    width: 97%;
+    height: 5%;
+    position: relative;
+    left: 18px;
+    bottom: 4300px;
+}
+.head .box15 .fi7{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+.head .box15 .fi8{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+}
+.head .box15 .fi9{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 170px;
+}
+.head .box15 .sit{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 240px;
+}
+.head .box15 .si1{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box15 .si2{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box15 .si3{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .box16{
+    background-color: white;
+    width: 97%;
+    height: 5%;
+    position: relative;
+    left: 18px;
+    bottom: 4280px;
+}
+.head .box16 .si4{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+.head .box16 .si5{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+}
+.head .box16 .si6{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 170px;
+}
+.head .box16 .si7{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 240px;
+}
+.head .box16 .si8{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box16 .si9{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box16 .set{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .box17{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 17px;
+    bottom: 4260px;
+}
+.head .box17 .se1{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box17 .se2{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box17 .se3{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box17 .se4{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box18{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 330px;
+    bottom: 4710px;
+}
+.head .box18 .se5{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box18 .se6{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box18 .se7{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box18 .se8{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box19{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 643px;
+    bottom: 5160px;
+}
+.head .box19 .se9{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box19 .eiy{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box19 .ei1{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box19 .ei2{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box20{
+    background-color: white;
+    width: 23%;
+    height: 9%;
+    position: relative;
+    left: 956px;
+    bottom: 5610px;
+}
+.head .box20 .ei3{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.head .box20 .ei4{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.head .box20 .ei5{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.head .box20 .ei6{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.head .box21{
+    background-color: white;
+    width: 97%;
+    height: 5%;
+    position: relative;
+    left: 18px;
+    bottom: 5590px;
+}
+.head .box21 .ei7{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+.head .box21 .ei8{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+}
+.head .box21 .ei9{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 170px;
+}
+.head .box21 .nit{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 240px;
+}
+.head .box21 .ni1{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box21 .ni2{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box21 .ni3{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .box22{
+    background-color: white;
+    width: 97%;
+    height: 5%;
+    position: relative;
+    left: 18px;
+    bottom: 5570px;
+}
+.head .box22 .ni4{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+.head .box22 .ni5{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 110px;
+}
+.head .box22 .ni6{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 170px;
+}
+.head .box22 .ni7{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 240px;
+}
+.head .box22 .ni8{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box22 .ni9{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 270px;
+}
+.head .box22 .hun{
+    height: 165px;
+    width: 130px;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+.head .a1{
+    background-color: white;
+    width: auto;
+    height: 5%;
+    position: relative;
+    bottom: 5540px;
+}
+.head .a1 .lin1{
+    color: gray;
+    width: auto;
+    position: relative;
+    top: 40px;
+}
+.head .a1 .t1{
+    background: none;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    padding-left: 385px;
+}
+.head .a1 .t2{
+    background-color: #FFD814;
+    border-radius: 50px;
+    border: none;
+    width: 15%;
+    height: 40px;
+    position: relative;
+    top: 80px;
+    left: 540px;
+}
+.head .a1 .t3{
+    background: none;
+    font-size: x-small;
+    font-weight: lighter;
+    position: relative;
+    top: 90px;
+    padding-left: 565px;
+}
+a{
+    background: none;
+}
+.head .a1 .lin2{
+    color: gray;
+    width: auto;
+    position: relative;
+    top: 120px;
+}
+.head .a2{
+    color: hsl(210, 24%, 90%);
+    background-color: #485769;
+    border: none;
+    width: 1264.7px;
+    height: 1.5%;
+    position: relative;
+    bottom: 5540px;   
+}
+.head .a3{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 1264.7px;
+    position: relative;
+    bottom: 5540px;
+    background-color: #233448;
+}
+h4{
+    background: none;
+    padding-bottom: 12px;
+}
+b{
+    background: none;
+    color: white;
+    font-size: larger;
+}
+.head .a3 .s1{
+    color: hsl(210, 24%, 90%);
+    background: none;
+    width: 19%;
+    position: relative;
+    top: 70px;
+    left: 120px;
+    font-size: smaller;
+}
+.head .a3 .s2{
+    color: hsl(210, 24%, 90%);
+    background: none;
+    width: 19%;
+    position: relative;
+    top: -125px;
+    left: 400px;
+    font-size: smaller;
+}
+.head .a3 .s3{
+    color: hsl(210, 24%, 90%);
+    background: none;
+    width: 19%;
+    position: relative;
+    top: -265px;
+    left: 700px;
+    font-size: smaller;
+}
+.head .a3 .s4{
+    color: hsl(210, 24%, 90%);
+    background: none;
+    width: 19%;
+    position: relative;
+    top: -425px;
+    left: 1000px;
+    font-size: smaller;
+}
+.head .a3 .s5{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    color: gray;
+}
+.head .a3 .s6{
+    width: 160px;
+    height: 100px;
+    position: relative;
+    top: 120px;
+    left: 570px;
+}
+.head .a4{
+    height: 900px;
+    width: 1264.7px;
+    position: relative;
+    bottom: 5540px;
+    background-color: #131A22;
+}
+.head .a4 .s7{
+    position: relative;
+    top: 250px;
+    left: 340px;
+    height: 50%;
+    width: 50%;
+    border-radius: 2%;
+    box-shadow: wheat;
+}
+.head .a5{
+    height: 900px;
+    width: 1264.7px;
+    position: relative;
+    bottom: 5540px;
+    background-color: #131A22;
+}
+.head .a5 .s8{
+    position: relative;
+    top: 470px;
+    left: 340px;
+    height: 50%;
+    width: 50%;
+    border-radius: 2%;
+    box-shadow: wheat;
+}
+.head .a6{
+    height: 2850px;
+    width: 1264.7px;
+    position: relative;
+    bottom: 5540px;
+    background-color: #131A22;
+}
+.head .a6 h1{
+    background: none;
+    position: relative;
+    top: 1920px;
+    padding-left: 250px;
+    color: #E3E6E6;
+}
+.head .a6 h4{
+    background: none;
+    position: relative;
+    top: 1940px;
+    padding-left: 500px;
+    color: #E3E6E6;
+}
